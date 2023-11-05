@@ -37,15 +37,15 @@ body * {
   padding: 0 24px;
 }
 /* Profile */
-#Profile {
+#profile {
   padding: 24px;
   text-align: center;
 }
-#Profile img {
+#profile img {
   width: 112px;
 }
 
-#Profile p {
+#profile p {
   font-weight: 24px;
   line-height: 24px;
   margin: 10px;
