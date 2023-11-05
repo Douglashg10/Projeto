@@ -1,10 +1,16 @@
-function togglemode() {
+function toggleMode() {
   const html = document.documentElement
   html.classList.toggle("light")
+
+  // pegar a tag img
   const img = document.querySelector("#Profile img")
+
+  // substituir a imagem
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/Cosmic-Dark-Lux.png")
+    // se tiver light mode, adicionar a imagem light
+    img.setAttribute("src", "./assets/avatar.png")
   } else {
-    img.setAttribute("src", "./assets/Cosmic-Lux.png")
+    // set tiver sem light mode, manter a imagem normal
+    img.setAttribute("src", "./assets/avatar-light.png")
   }
 }
