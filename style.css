@@ -20,7 +20,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/MoonStars.svg);
-  --profile-url: url(./assets/Cosmic Lux.png);
+  --profile-url: url(./assets/avatar-light.png);
 }
 body {
   background: var(--bg-url);
